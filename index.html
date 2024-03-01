@@ -6,8 +6,8 @@
 <link rel="icon" type="image/x icon" href="images/favicon.ico">
 </head>
 <body>
-
-<h1 style="color:black"><center>Green Is The New Black</center></h1>
+  <div style="height:1000px width:800 ;background-color:hsla(107, 32%, 55%, 0.61);; font: size 28px;">
+<br><h1 style="color:black"><center>Green Is The New Black</center></h1>
 <h3 style="color:black"><center>Made by Stefan.</center></h3>
 
 <h2 style="color:black"><center>The reason for this website.</center></h2>
@@ -26,7 +26,7 @@
 
 
 
-  <div style="height:1000px width:800 ;background-color:#76b166; font: size 28px;">
+  
     
     <h1 style="color:black"><center><br>Different Green Spaces In Manchester.</center> </h1>
 <h2 style="color:black"><center>Symphony Park</center></h2>
@@ -45,7 +45,7 @@
 <center><img src="images/alangilbertsquare.jpg" alt="alanGilbertSquare" width="700" height="450"></center>
 <h3  style="color:black"><center>Located next to Brunswick Park, Alan Gilber Square is a small green space to escape to while having lunch or having a break from lessons, this area can also be used for studying in.</center></h3>
 <h3  style="color:black"><br></h3>
-</div>
+
 
 
 </body>
@@ -72,5 +72,36 @@
 </head>
 </html>
 
+<!-- Forms -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<center>
+<h1>Suggestion Form</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for ="suggestion">Write your suggestion here!:</label><br>
+  <input type="text" id="suggestion" name="suggestion" value=""><br><br>
+  <input type="submit" value="Submit">
+  
+
+  <?php
+  echo "Your input has been recieved";
+  ?>
+
+</form> 
+
+<br><h3 style="color:black"><center>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</center><br><br></h3>
+</center>
+</div>
+</body>
+</html>
 <!-- color:#76b166 -->
 <!-- -image: url('images/lightgreengradient3.jpg -->
