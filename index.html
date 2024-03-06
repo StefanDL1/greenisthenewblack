@@ -4,8 +4,18 @@
 <!-- Title stuff -->
 <title>Green Is The New Black - Stefan D L</title>
 <link rel="icon" type="image/x icon" href="images/favicon.ico">
+<style>
+div{
+  border: 100px hsla(107, 32%, 55%, 0.61);
+  margin-top: -10px;
+  margin-bottom: -100px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+</style>
 </head>
 <body>
+  
   <div style="height:1000px width:800 ;background-color:hsla(107, 32%, 55%, 0.61); font: size 28px;">
 <br><h1 style="color:black"><center>Green Is The New Black</center></h1>
 <h3 style="color:black"><center>Made by Stefan.</center></h3>
@@ -24,13 +34,35 @@
 <html>
 <body>
 
-
+<center>
 
   
     
     <h1 style="color:black"><center><br>Different Green Spaces In Manchester.</center> </h1>
 <h2 style="color:black"><center>Symphony Park</center></h2>
-<center><img src="images/symphonypark.jpg" alt="symphonyPark" width="650" height="400"></center> 
+<center>
+  <script language="JavaScript"> 
+    var i = 0; var path = new Array(); 
+    
+    // LIST OF IMAGES 
+    path[0] = "images/symphonypark.jpg"; 
+    path[1] = "images/symphonypark3.jpg"; 
+    path[2] = "images/symphonypark2.jpg"; 
+    
+    function swapImage() 
+    { 
+    document.slide.src = path[i]; 
+    if(i < path.length - 1) i++; 
+    else i = 0; 
+    setTimeout("swapImage()",3000); 
+    } 
+    window.onload=swapImage; 
+    </script> 
+    <img height="400" name="slide" src="images/symphonypark.jpg" width="750" />
+  
+  </center>
+
+  border: 100px hsla(107, 32%, 55%, 0.61);
 <h3  style="color:black"><center>Symphony Park is located at Circle Square, it has over a 100 semi-mature trees. It is also home to a cafe and has lots of seating if you were to need to rest your legs.<br>Despite its small size Symphony Park very peaceful and relaxing to be in.</center></h3>
 
 <h2 style="color:black"><center>Castlefield Urban Heritage Park</center></h2>
@@ -52,6 +84,7 @@
 <h3  style="color:black"><br></h3>
 
 
+</center>
 
 </body>
 </html>
@@ -121,3 +154,5 @@
 </html>
 <!-- color:#76b166 -->
 <!-- -image: url('images/lightgreengradient3.jpg -->
+
+
